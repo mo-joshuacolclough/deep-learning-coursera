@@ -2,27 +2,23 @@
 
 1. Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
 
-    - [x] True
+    - [ ] True
     - [ ] False
 
 2. If you had the three following models, which one would you choose?
 
-    - Test Accuracy	98% 
-    - Runtime 9 sec	
-    - Memory size 9MB
+    - [ ] Test Accuracy	98% 
+    - [ ] Runtime 9 sec	
+    - [ ] Memory size 9MB
 
 3. Based on the city’s requests, which of the following would you say is true?
 
-    - [x] Accuracy is an optimizing metric; running time and memory size are a satisficing metrics.
+    - [ ] Accuracy is an optimizing metric; running time and memory size are a satisficing metrics.
     - [ ] Accuracy is a satisficing metric; running time and memory size are an optimizing metric.
     - [ ] Accuracy, running time and memory size are all optimizing metrics because you want to do well on all three.
     - [ ] Accuracy, running time and memory size are all satisficing metrics because you have to do sufficiently well on all three for your system to be acceptable.
 
 4. Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
-
-    - Train 9,500,000		
-    - Dev 250,000
-    - Test 250,000
 
 5. After setting up your train/dev/test sets, the City Council comes across another 1,000,000 images, called the “citizens’ data”. Apparently the citizens of Peacetopia are so scared of birds that they volunteered to take pictures of the sky and label them, thus contributing these additional 1,000,000 images. These images are different from the distribution of images the City Council had originally given you, but you think it could help your algorithm.
 
