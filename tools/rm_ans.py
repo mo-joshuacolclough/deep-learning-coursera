@@ -18,7 +18,8 @@ def main(file):
                 active = START_PATTERN in line
                 new += line
 
-    print(new)
+    with open(file, "w") as fo:
+        fo.write(new)
 
 if __name__ == "__main__":
     import sys
